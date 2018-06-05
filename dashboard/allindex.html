@@ -50,99 +50,7 @@
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <!-- Messages Dropdown Menu -->
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="fa fa-comments-o"></i>
-            <span class="badge badge-danger navbar-badge">3</span>
-          </a>
-          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <a href="#" class="dropdown-item">
-              <!-- Message Start -->
-              <div class="media">
-                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-                <div class="media-body">
-                  <h3 class="dropdown-item-title">
-                    Brad Diesel
-                    <span class="float-right text-sm text-danger">
-                      <i class="fa fa-star"></i>
-                    </span>
-                  </h3>
-                  <p class="text-sm">Call me whenever you can...</p>
-                  <p class="text-sm text-muted">
-                    <i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
-                </div>
-              </div>
-              <!-- Message End -->
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <!-- Message Start -->
-              <div class="media">
-                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                <div class="media-body">
-                  <h3 class="dropdown-item-title">
-                    John Pierce
-                    <span class="float-right text-sm text-muted">
-                      <i class="fa fa-star"></i>
-                    </span>
-                  </h3>
-                  <p class="text-sm">I got your message bro</p>
-                  <p class="text-sm text-muted">
-                    <i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
-                </div>
-              </div>
-              <!-- Message End -->
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <!-- Message Start -->
-              <div class="media">
-                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                <div class="media-body">
-                  <h3 class="dropdown-item-title">
-                    Nora Silvester
-                    <span class="float-right text-sm text-warning">
-                      <i class="fa fa-star"></i>
-                    </span>
-                  </h3>
-                  <p class="text-sm">The subject goes here</p>
-                  <p class="text-sm text-muted">
-                    <i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
-                </div>
-              </div>
-              <!-- Message End -->
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-          </div>
-        </li>
-        <!-- Notifications Dropdown Menu -->
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="fa fa-bell-o"></i>
-            <span class="badge badge-warning navbar-badge">15</span>
-          </a>
-          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <span class="dropdown-item dropdown-header">15 Notifications</span>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fa fa-envelope mr-2"></i> 4 new messages
-              <span class="float-right text-muted text-sm">3 mins</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fa fa-users mr-2"></i> 8 friend requests
-              <span class="float-right text-muted text-sm">12 hours</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fa fa-file mr-2"></i> 3 new reports
-              <span class="float-right text-muted text-sm">2 days</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-          </div>
-        </li>
+      
         <li class="nav-item">
           <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
             <i class="fa fa-th-large"></i>
@@ -168,7 +76,13 @@
       <!-- Content Header (Page header) -->
       <div class="content-header">
         <div class="container-fluid">
-        
+        <div class="widget-user-header text-white" style="background: url('dist/img/photo1.png') center center;">
+          <h3 class="widget-user-username">Nutem Tools</h3>
+          <h5 class="widget-user-desc">国核自仪</h5>
+          <h5 class="widget-user-desc">&nbsp</h5>
+          <h5 class="widget-user-desc">&nbsp</h5>
+          <h5 class="widget-user-desc">&nbsp</h5>
+        </div>
           <!-- /.row -->
         </div>
         <!-- /.container-fluid -->
@@ -181,7 +95,7 @@
           <!-- Test boxes -->
 
           <div class="row">
-            <div class="col-lg-8">
+            <section class="col-lg-8 connectedSortable">
 
 
               <div class="card">
@@ -284,138 +198,219 @@
                   </table>
                 </div>
               </div>
-
-              <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">
-                    <i class="ion ion-clipboard mr-1"></i>
-                    行动项列表
-                  </h3>
-
-                  <div class="card-tools">
-                    <ul class="pagination pagination-sm">
-                      <li class="page-item">
-                        <a href="#" class="page-link">&laquo;</a>
-                      </li>
-                      <li class="page-item">
-                        <a href="#" class="page-link">1</a>
-                      </li>
-                      <li class="page-item">
-                        <a href="#" class="page-link">2</a>
-                      </li>
-                      <li class="page-item">
-                        <a href="#" class="page-link">3</a>
-                      </li>
-                      <li class="page-item">
-                        <a href="#" class="page-link">&raquo;</a>
-                      </li>
-                    </ul>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title">
+                        <i class="ion ion-clipboard mr-1"></i>
+                        行动项列表
+                      </h3>
+                  
+                      <div class="card-tools">
+                        <ul class="pagination pagination-sm">
+                          <li class="page-item">
+                            <a href="#" class="page-link">&laquo;</a>
+                          </li>
+                          <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                          </li>
+                          <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                          </li>
+                          <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                          </li>
+                          <li class="page-item">
+                            <a href="#" class="page-link">&raquo;</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                      <ul class="todo-list">
+                        <li>
+                          <!-- drag handle -->
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <!-- checkbox -->
+                          <input type="checkbox" value="" name="">
+                          <!-- todo text -->
+                          <span class="text">Design new</span>
+                          <!-- Emphasis label -->
+                          <small class="badge badge-danger">
+                            <i class="fa fa-clock-o"></i> 2天</small>
+                          <!-- General tools such as edit or delete-->
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                        <li>
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <input type="checkbox" value="" name="">
+                          <span class="text">做决定</span>
+                          <small class="badge badge-info">
+                            <i class="fa fa-clock-o"></i> 4天</small>
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                        <li>
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <input type="checkbox" value="" name="">
+                          <span class="text">项目汇报</span>
+                          <small class="badge badge-warning">
+                            <i class="fa fa-clock-o"></i>1天</small>
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                        <li>
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <input type="checkbox" value="" name="">
+                          <span class="text">开会</span>
+                          <small class="badge badge-success">
+                            <i class="fa fa-clock-o"></i> 3天</small>
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                        <li>
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <input type="checkbox" value="" name="">
+                          <span class="text">检查工作</span>
+                          <small class="badge badge-primary">
+                            <i class="fa fa-clock-o"></i> 1周</small>
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                        <li>
+                          <span class="handle">
+                            <i class="fa fa-ellipsis-v"></i>
+                            <i class="fa fa-ellipsis-v"></i>
+                          </span>
+                          <input type="checkbox" value="" name="">
+                          <span class="text">看比赛</span>
+                          <small class="badge badge-secondary">
+                            <i class="fa fa-clock-o"></i> 1月</small>
+                          <div class="tools">
+                            <i class="fa fa-edit"></i>
+                            <i class="fa fa-trash-o"></i>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer clearfix">
+                      <button type="button" class="btn btn-info float-right">
+                        <i class="fa fa-plus"></i> Add item</button>
+                    </div>
                   </div>
                 </div>
-                <!-- /.card-header -->
-                <div class="card-body">
-                  <ul class="todo-list">
-                    <li>
-                      <!-- drag handle -->
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <!-- checkbox -->
-                      <input type="checkbox" value="" name="">
-                      <!-- todo text -->
-                      <span class="text">Design a nice theme</span>
-                      <!-- Emphasis label -->
-                      <small class="badge badge-danger">
-                        <i class="fa fa-clock-o"></i> 2 mins</small>
-                      <!-- General tools such as edit or delete-->
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title">部门人员</h3>
+                
+                      <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-widget="collapse">
+                          <i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-tool" data-widget="remove">
+                          <i class="fa fa-times"></i>
+                        </button>
                       </div>
-                    </li>
-                    <li>
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <input type="checkbox" value="" name="">
-                      <span class="text">Make the theme responsive</span>
-                      <small class="badge badge-info">
-                        <i class="fa fa-clock-o"></i> 4 hours</small>
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="chart-responsive">
+                            <canvas id="pieChart" height="150"></canvas>
+                          </div>
+                          <!-- ./chart-responsive -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-4">
+                          <ul class="chart-legend clearfix">
+                            <li>
+                              <i class="fa fa-circle-o text-danger"></i> 财务</li>
+                            <li>
+                              <i class="fa fa-circle-o text-success"></i> 商务</li>
+                            <li>
+                              <i class="fa fa-circle-o text-warning"></i> 工程</li>
+                            <li>
+                              <i class="fa fa-circle-o text-info"></i> 项目</li>
+                            <li>
+                              <i class="fa fa-circle-o text-primary"></i> 总管</li>
+                            <li>
+                              <i class="fa fa-circle-o text-secondary"></i> 人力</li>
+                          </ul>
+                        </div>
+                        <!-- /.col -->
                       </div>
-                    </li>
-                    <li>
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <input type="checkbox" value="" name="">
-                      <span class="text">Let theme shine like a star</span>
-                      <small class="badge badge-warning">
-                        <i class="fa fa-clock-o"></i> 1 day</small>
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <input type="checkbox" value="" name="">
-                      <span class="text">Let theme shine like a star</span>
-                      <small class="badge badge-success">
-                        <i class="fa fa-clock-o"></i> 3 days</small>
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <input type="checkbox" value="" name="">
-                      <span class="text">Check your messages and notifications</span>
-                      <small class="badge badge-primary">
-                        <i class="fa fa-clock-o"></i> 1 week</small>
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="handle">
-                        <i class="fa fa-ellipsis-v"></i>
-                        <i class="fa fa-ellipsis-v"></i>
-                      </span>
-                      <input type="checkbox" value="" name="">
-                      <span class="text">Let theme shine like a star</span>
-                      <small class="badge badge-secondary">
-                        <i class="fa fa-clock-o"></i> 1 month</small>
-                      <div class="tools">
-                        <i class="fa fa-edit"></i>
-                        <i class="fa fa-trash-o"></i>
-                      </div>
-                    </li>
-                  </ul>
+                      <!-- /.row -->
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer bg-white p-0">
+                      <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">
+                            中国
+                            <span class="float-right text-danger">
+                              <i class="fa fa-arrow-down text-sm"></i>
+                              12%</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">
+                            美国
+                            <span class="float-right text-success">
+                              <i class="fa fa-arrow-up text-sm"></i> 4%
+                            </span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">
+                            日本
+                            <span class="float-right text-warning">
+                              <i class="fa fa-arrow-left text-sm"></i> 0%
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /.footer -->
+                  </div>
+                  <!-- /.card -->
                 </div>
-                <!-- /.card-body -->
-                <div class="card-footer clearfix">
-                  <button type="button" class="btn btn-info float-right">
-                    <i class="fa fa-plus"></i> Add item</button>
-                </div>
+
               </div>
+              
+           
+
               <div class="row">
-
-
-
                   <div class="col-md-6">
                     <!-- USERS LIST -->
                     <div class="card">
@@ -489,86 +484,32 @@
                   <div class="col-md-6">
                     <div class="card">
                       <div class="card-header">
-                        <h3 class="card-title">部门人员</h3>
+                        <h3 class="card-title">待定</h3>
       
-                        <div class="card-tools">
-                          <button type="button" class="btn btn-tool" data-widget="collapse">
-                            <i class="fa fa-minus"></i>
-                          </button>
-                          <button type="button" class="btn btn-tool" data-widget="remove">
-                            <i class="fa fa-times"></i>
-                          </button>
-                        </div>
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
                         <div class="row">
-                          <div class="col-md-8">
-                            <div class="chart-responsive">
-                              <canvas id="pieChart" height="150"></canvas>
-                            </div>
-                            <!-- ./chart-responsive -->
-                          </div>
-                          <!-- /.col -->
-                          <div class="col-md-4">
-                            <ul class="chart-legend clearfix">
-                              <li>
-                                <i class="fa fa-circle-o text-danger"></i> 财务</li>
-                              <li>
-                                <i class="fa fa-circle-o text-success"></i> 商务</li>
-                              <li>
-                                <i class="fa fa-circle-o text-warning"></i> 工程</li>
-                              <li>
-                                <i class="fa fa-circle-o text-info"></i> 项目</li>
-                              <li>
-                                <i class="fa fa-circle-o text-primary"></i> 总管</li>
-                              <li>
-                                <i class="fa fa-circle-o text-secondary"></i> 人力</li>
-                            </ul>
-                          </div>
+                          <h3>待定</h3>
+                       
                           <!-- /.col -->
                         </div>
                         <!-- /.row -->
                       </div>
                       <!-- /.card-body -->
                       <div class="card-footer bg-white p-0">
-                        <ul class="nav nav-pills flex-column">
-                          <li class="nav-item">
-                            <a href="#" class="nav-link">
-                              中国
-                              <span class="float-right text-danger">
-                                <i class="fa fa-arrow-down text-sm"></i>
-                                12%</span>
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="#" class="nav-link">
-                              美国
-                              <span class="float-right text-success">
-                                <i class="fa fa-arrow-up text-sm"></i> 4%
-                              </span>
-                            </a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="#" class="nav-link">
-                              日本
-                              <span class="float-right text-warning">
-                                <i class="fa fa-arrow-left text-sm"></i> 0%
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
+                       <h5>待定</h5>
                       </div>
                       <!-- /.footer -->
                     </div>
                     <!-- /.card -->
                   </div>
                   <!-- /.col -->
-                </div>
+              </div>
               <!-- /.card -->
-            </div>
+            </section>
             <!-- /.col-md-6 -->
-            <div class="col-lg-4">
+            <section class="col-lg-4 connectedSortable">
               <div class="card">
                 <div class="card-header">
                   <h3 class="card-title">管理工具</h3>
@@ -786,7 +727,7 @@
                     </div>
                     <!-- /.card-body -->
                   </div>
-            </div>
+            </section>
             <!-- /.col-md-6 -->
           </div>
 
